@@ -1,0 +1,110 @@
+
+
+body {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+  max-width: 1024px;
+}
+
+.family-type {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.font p {
+  font-size: 15px;
+}
+
+.font-size-1 {
+  font-size: 33px;
+}
+
+.font-size-2 {
+  font-size: 21px;
+}
+
+.font-size-3{
+  font-size: 61px;
+}
+
+.font-size-4 {
+  font-size: 27px;
+}
+
+.font-size-5 {
+  font-size: 31px;
+}
+
+.primary-bg-color-1 {
+  background-color: #3dc5b6;
+}
+
+.primary-bg-color-2 {
+  background-color: #4ccfc1;
+}
+
+.primary-bg-color-3 {
+  background-color: #3cc395;
+}
+
+.primary-bg-color-4 {
+  background-color: #3bbfb4;
+}
+
+.primary-bg-color-5 {
+  background-color: #3cc3b5;
+}
+
+.primary-bg-color-6 {
+  background-color: #2da89b;
+}
+
+.color-item {
+  color: #a1a1a1;
+}
+
+.color-item-2 {
+ color: #afafaf;
+}
+
+.border-view {
+  border-right: 1px solid  #e8e8e8;
+}
+
+.border-view:last-of-type {
+  border-right: none;
+}
+
+.border-view-2 {
+  border-bottom: 3px solid #3cc395;
+}
+
+.leading-between {
+  line-height: 20px;
+}
+
+.dot {
+  transition: background-color 0.6s ease;
+}
+
+.dot.active, .dot:hover {
+  background-color: #7fd4cb;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
