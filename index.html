@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <section id="search" class="hidden">
+  <section id="search" class="">
     <div class="container mx-auto">
       <div class="lg:flex lg:items-center lg:h-24 flex-wrap flex flex-row">
         <div class="lg:w-1/4 lg:p-4 p-2 w-full">
@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="lg:w-1/4 lg:p-2 w-full">
-          <div class="lg:justify-end lg:text-gray-700 flex p-2 justify-center">
+          <div class="lg:justify-end lg:text-gray-700 lg:p-2 flex p-3 justify-center">
             <img src="images/icon-1.svg" alt="">
             <span class="font-size-1 color-item ml-4">$300</span>
           </div>
@@ -33,7 +33,7 @@
       </div>
     </div>
   </section>
-  <section id="navigation-bar" class="primary-bg-color-1 hidden">
+  <section id="navigation-bar" class="primary-bg-color-1 ">
     <div class="lg:flex lg:justify-around container font-size-2 text-white whitespace-no-wrap overflow-auto p-2 mx-auto">
       <a href="#">home</a>
       <span>|</span>
@@ -57,7 +57,7 @@
     </div>
     </div>
   </section>
-  <section id="welcome-part" class="primary-bg-color-2 pb-4 hidden">
+  <section id="welcome-part" class="primary-bg-color-2 pb-4 ">
     <div class="container max-w-screen-lg relative m-auto">
       <div class="lg:pt-24 mySlides hidden fade pt-12">
         <div class="lg:flex lg:flex-row items-center flex-col">
@@ -65,7 +65,7 @@
             <img class="lg:mx-0 mx-auto" src="images/product-image.png" alt="">
           </div>
           <div class="lg:w-2/5 lg:ml-20 lg:text-left text-white text-center">
-            <div class="leading-none py-3">
+            <div class="leading-none lg:py-3 py-5">
               <p class="lg:text-6xl text-4xl">cowhide</p>
               <p class="lg:text-6xl text-4xl">standard crew</p>
             </div>
@@ -80,7 +80,7 @@
             <img class="lg:mx-0 mx-auto" src="images/product-image.png" alt="">
           </div>
           <div class="lg:w-2/5 lg:ml-20 lg:text-left text-white text-center">
-            <div class="leading-none py-3">
+            <div class="leading-none lg:py-3 py-5">
               <p class="lg:text-6xl text-4xl">cowhide</p>
               <p class="lg:text-6xl text-4xl">standard crew</p>
             </div>
@@ -95,7 +95,7 @@
             <img class="lg:mx-0 mx-auto" src="images/product-image.png" alt="">
           </div>
           <div class="lg:w-2/5 lg:ml-20 lg:text-left text-white text-center">
-            <div class="leading-none py-3">
+            <div class="leading-none lg:py-3 py-5">
               <p class="lg:text-6xl text-4xl">cowhide</p>
               <p class="lg:text-6xl text-4xl">standard crew</p>
             </div>
@@ -110,7 +110,7 @@
             <img class="lg:mx-0 mx-auto" src="images/product-image.png" alt="">
           </div>
           <div class="lg:w-2/5 lg:ml-20 lg:text-left text-white text-center">
-            <div class="leading-none py-3">
+            <div class="leading-none lg:py-3 py-5">
               <p class="lg:text-6xl text-4xl">cowhide</p>
               <p class="lg:text-6xl text-4xl">standard crew</p>
             </div>
@@ -125,7 +125,7 @@
             <img class="lg:mx-0 mx-auto" src="images/product-image.png" alt="">
           </div>
           <div class="lg:w-2/5 lg:ml-20 lg:text-left text-white text-center">
-            <div class="leading-none py-3">
+            <div class="leading-none lg:py-3 py-5">
               <p class="lg:text-6xl text-4xl">cowhide</p>
               <p class="lg:text-6xl text-4xl">standard crew</p>
             </div>
@@ -135,7 +135,7 @@
         </div>
       </div>
 
-      <div class="text-center w-11/12 mx-auto">
+      <div class="lg:p-0 p-3 text-center w-11/12 mx-auto">
         <span class="dot cursor-pointer my-0 mx-1 h-3 w-3 bg-white rounded-full inline-block" onclick="currentSlide(1)"></span>
         <span class="dot cursor-pointer my-0 mx-1 h-3 w-3 bg-white rounded-full inline-block" onclick="currentSlide(2)"></span>
         <span class="dot cursor-pointer my-0 mx-1 h-3 w-3 bg-white rounded-full inline-block" onclick="currentSlide(3)"></span>
@@ -146,79 +146,79 @@
   </section>
   <section id="product-slider" class="">
     <div class="glider-contain flex">
-      <button aria-label="Previous" class="prev px-5">
+      <button aria-label="Previous" class="prev lg:px-5 px-2">
         <div class="">
           <img src="images/prev.png" alt="prev-icon">
         </div>
       </button>
       <div class="glider flex-grow container">
-        <div class="flex border-view p-6">
-          <div class="">
-            <img src="images/shoes.png" alt="">
+        <div class="lg:p-6 flex border-view ">
+          <div>
+            <img class="lg:h-full h-32" src="images/shoes.png" alt="">
           </div>
-          <div class="self-center color-item-2 px-8 w-1/3 leading-between">
+          <div class="lg:px-8 self-center color-item-2 w-1/3 leading-between">
             <p class="text-2xl">branded shoes</p>
             <button class="text-lg rounded-sm px-4 py-1 text-white mt-3 primary-bg-color-3" type="button" name="button">shop</button>
           </div>
         </div>
         <div class="flex border-view p-6">
           <div class="">
-            <img src="images/shirt.png" alt="">
+            <img class="lg:h-full h-32" src="images/shirt.png" alt="">
           </div>
-          <div class="self-center color-item-2 px-8 w-1/3 leading-between">
+          <div class="lg:px-8 self-center color-item-2 w-1/3 leading-between">
             <p class="text-2xl">brand tshirts</p>
             <button class="text-lg rounded-sm px-4 py-1 text-white mt-3 primary-bg-color-3" type="button" name="button">shop</button>
           </div>
         </div>
         <div class="flex p-6">
           <div class="">
-            <img src="images/jeans.png" alt="">
+            <img class="lg:h-full h-32" src="images/jeans.png" alt="">
           </div>
-          <div class="self-center color-item-2 px-8 w-1/3 leading-between">
+          <div class="lg:px-8 self-center color-item-2 w-1/3 leading-between">
             <p class="text-2xl">branded shoes</p>
             <button class="text-lg rounded-sm px-4 py-1 text-white mt-3 primary-bg-color-3" type="button" name="button">shop</button>
           </div>
         </div>
         <div class="flex border-view p-6">
           <div class="">
-            <img src="images/shoes.png" alt="">
+            <img class="lg:h-full h-32" src="images/shoes.png" alt="">
           </div>
-          <div class="self-center color-item-2 px-8 w-1/3 leading-between">
+          <div class="lg:px-8 self-center color-item-2 w-1/3 leading-between">
             <p class="text-2xl">branded shoes</p>
             <button class="text-lg rounded-sm px-4 py-1 text-white mt-3 primary-bg-color-3" type="button" name="button">shop</button>
           </div>
         </div>
         <div class="flex border-view p-6">
           <div class="">
-            <img src="images/shirt.png" alt="">
+            <img class="lg:h-full h-32" src="images/shirt.png" alt="">
           </div>
-          <div class="self-center color-item-2 px-8 w-1/3 leading-between">
+          <div class="lg:px-8 self-center color-item-2 w-1/3 leading-between">
             <p class="text-2xl">branded shoes</p>
             <button class="text-lg rounded-sm px-4 py-1 text-white mt-3 primary-bg-color-3" type="button" name="button">shop</button>
           </div>
         </div>
         <div class="flex border-view p-6">
           <div class="">
-            <img src="images/jeans.png" alt="">
+            <img class="lg:h-full h-32" src="images/jeans.png" alt="">
           </div>
-          <div class="self-center color-item-2 px-8 w-1/3 leading-between">
+          <div class="lg:px-8 self-center color-item-2 w-1/3 leading-between">
             <p class="text-2xl">branded shoes</p>
             <button class="text-lg rounded-sm px-4 py-1 text-white mt-3 primary-bg-color-3" type="button" name="button">shop</button>
           </div>
         </div>
       </div>
-      <button aria-label="Next" class="next px-5">
+      <button aria-label="Next" class="next lg:px-5 px-2">
         <img src="images/next.png" alt="">
       </button>
     </div>
   </section>
-  <section id="categories-heading" class="primary-bg-color-4 hidden">
-    <div class="container px-20 mx-auto text-white text-3xl py-3">
+  <section id="categories-heading" class="primary-bg-color-4 ">
+    <div class="lg:px-20 lg:text-3xl container mx-auto text-white text-center text-2xl py-3">
       <p>featured products</p>
     </div>
   </section>
-  <section id="categories" class="container mx-auto p-20 hidden">
-    <div class="grid grid-cols-3 gap-8">
+  <section id="categories" class="lg:p-20 container mx-auto p-4 ">
+    <div class="lg:grid-cols-3 lg:gap-8 grid grid-cols-1 gap-4">
       <div>
         <div class="border border-gray-300 p-6 border-view-2">
           <div class="bg-1 h-48 bg-center bg-no-repeat" style="background-image: url(images/categories/high-heels.png)">
@@ -287,8 +287,8 @@
       </div>
     </div>
   </section>
-  <section id="footer-content" class="primary-bg-color-5 py-6 hidden">
-    <div class="container mx-auto flex justify-around text-white">
+  <section id="footer-content" class="primary-bg-color-5 py-6 ">
+    <div class="lg:justify-around container mx-auto flex flex-col text-center text-white">
       <div class="">
         <p class="font-size-4 py-5">featured sale</p>
         <div class="font family-type leading-loose">
@@ -343,7 +343,7 @@
       </div>
     </div>
   </section>
-  <section id="copyright" class="primary-bg-color-6 py-5 hidden">
+  <section id="copyright" class="primary-bg-color-6 py-5">
     <div class="container mx-auto font family-type text-white text-center">
       <p>Copyright © 2013 Css Author</p>
     </div>
